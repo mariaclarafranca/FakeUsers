@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gerador de FakeUsers</h1>
+    <div class="formUser">
+    
+        <span>Gênero:</span>
+        <input value="" type="radio" name="gender" checked /> Aleatório
+        <input value="male" type="radio" name="gender" /> Homem
+        <input value="famele" type="radio" name="gender" /> Mulher
+    </div>
+    <div>
+        <span><b></b>Nacionalidade</span></b> </span>
+        <select id="natUsers">
+            <option value="br">Brasil</option>
+            <option value="mx">México</option>
+            <option value="es">Espanha</option>
+            <option value="us">Estados Unidos</option>
+        </select>
+    </div>
+    <div>
+        <span><b></b>Quantidade</span></b> </span>
+        <select id="quantUsers">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+    </div>
+    <button onclick="generateFakeUsers()">Gerar Usuário</button>
+    <hr>
+
+    <div class="allUsers">
+    <!-- <div class="user">
+        <img width="100" src="https://blog.piuka.com.br/wp-content/uploads/2018/07/toquio-tendencias-de-moda.jpg">
+        <div class="info">
+            <span>Nome: Clara França</span>
+            <span>Email: mariaclarafrancamaria@gmail.com</span>
+        </div>
+    </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

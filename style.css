@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: rgb(54, 54, 130);
+}
+
+.formUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.allUsers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px black;
+    border-radius:5px ;
+    padding: 15px;
+    gap: 10px;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
